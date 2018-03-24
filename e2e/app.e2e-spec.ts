@@ -12,7 +12,7 @@ describe('example-studios App', () => {
     page.navigateTo();
     expect(page.getHeadingText()).toEqual('The Black Lab');
   });
-  
+
   it('should display the expanded navbar for high resolutions', () => {
     browser.manage().window().setSize(1024, 768);
     page.navigateTo();

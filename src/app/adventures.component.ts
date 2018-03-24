@@ -3,11 +3,11 @@ import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 import {HttpClient} from '@angular/common/http';
 
 @Component({
-  selector: 'navbar-component-example',
+  selector: 'app-navbar-component-example',
   templateUrl: './adventures.component.html',
   providers: [
-  	NgbCarouselConfig,
-  	HttpClient
+    NgbCarouselConfig,
+    HttpClient
   ]
 })
 export class AdventuresComponent implements OnInit {
@@ -17,6 +17,6 @@ export class AdventuresComponent implements OnInit {
     config.wrap = true;
     config.keyboard = true;
   }
-  
+
   ngOnInit() { }
 }

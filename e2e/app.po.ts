@@ -8,7 +8,7 @@ export class AppPage {
   getHeadingText() {
     return element(by.css('app-root h2')).getText();
   }
-  
+
   getNavbarElement(n) {
     return $$('app-root div a').get(n).getText();
   }

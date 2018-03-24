@@ -10,9 +10,9 @@ describe('AppComponent', () => {
         AppComponent
       ],
       imports: [
-      	CommonModule,
-      	RouterTestingModule,
-      	NgbModule
+        CommonModule,
+        RouterTestingModule,
+        NgbModule
       ]
     }).compileComponents();
   }));

@@ -1,6 +1,6 @@
 # ExampleStudios
 
-A sample website for small business owners, such as photographers.
+A sample website for small business owners, such as photographers: https://camilligan.github.io/example-studios/ 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 

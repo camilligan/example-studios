@@ -30,7 +30,7 @@ const appRoutes: Routes = [
     ContactComponent
   ],
   imports: [
-  	RouterModule.forRoot(
+    RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
     ),
