@@ -1,0 +1,110 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+html {
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+body, header {
+  height: 100%;
+  font-family: 'Abel';
+  color: #6c757d;
+  background-color: #D3D3D3;
+}
+
+header {
+  margin-bottom: 80px;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  header {
+    height: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-brand {
+  	color: #6c757d !important;
+  }
+}
+
+footer {
+  margin-top: 80px;
+}
+
+.parallax { 
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-image {
+  height: 95vh;
+  min-height: 100%;
+  background: no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.full-image {
+    background: no-repeat center center scroll;
+    background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+	min-height: 65vh;
+}
+
+.col-sm {
+	padding-bottom: 10px
+}
+
+.container-item {
+  margin-top: 80px;
+  font-weight: bold;
+  border-width: 1px;
+  font-size: 25px;
+  font-family: 'Abel';
+}
+
+.header-text {
+  color: white;
+  font-family: 'Cabin Sketch';
+  text-align: center;
+  margin-top: -200px;
+  margin-bottom: 150px;
+  padding-right: 30%;
+  font-size: 48px;
+}
+
+.about-text {
+  font-family: 'Abel';
+}
+
+.contact-button {
+  margin-top: 80px;
+  font-family: 'Abel';
+}
+
+.navbar-brand {
+	font-family: 'Cabin Sketch';
+	color: white;
+	font-size: 25px;
+}
+
+.nav-link {
+	color: inherit;
+}
