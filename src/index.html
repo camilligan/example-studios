@@ -11,15 +11,20 @@
   <title>Cali the Lab</title>
   <base href="/">
 
-  <!-- Bootstrap core CSS -->
-<!--   <link href="assets/bootstrap.min.css" rel="stylesheet"> -->
-
-  <!-- Custom styles for this template -->
-<!--   <link href="assets/modern-business.css" rel="stylesheet"> -->
-
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playfair+Display">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Abel">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Cabin+Sketch">
+  
+  <script>
+    // See http://www.backalleycoder.com/2016/05/13/sghpa-the-single-page-app-hack-for-github-pages/
+    (function(){
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect != location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
 
 </head>
 <body>
